@@ -1,12 +1,12 @@
-# bootstrap-sass with Compass
+# semantic-bootstrap with Compass
 
 ## New project
 
 Install the gem and create a new project using the gem.
 
 ```console
-gem install bootstrap-sass
-compass create compass-project -r bootstrap-sass --using bootstrap
+gem install semantic-bootstrap
+compass create compass-project -r semantic-bootstrap --using bootstrap
 ```
 
 This will sort a few things out:
@@ -20,12 +20,12 @@ This will sort a few things out:
 Install the gem, add the require statement to the top of your configuration file, and install the extension.
 
 ```console
-gem install bootstrap-sass
+gem install semantic-bootstrap
 ```
 
 ```ruby
 # In config.rb
-require 'bootstrap-sass'
+require 'semantic-bootstrap'
 ```
 
 ```console

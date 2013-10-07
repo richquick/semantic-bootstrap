@@ -1,8 +1,8 @@
 # Bootstrap for Sass
 
-[![Build Status](https://secure.travis-ci.org/thomas-mcdonald/bootstrap-sass.png?branch=master)](http://travis-ci.org/thomas-mcdonald/bootstrap-sass) [![Code Climate](https://codeclimate.com/github/thomas-mcdonald/bootstrap-sass.png)](https://codeclimate.com/github/thomas-mcdonald/bootstrap-sass)
+[![Build Status](https://secure.travis-ci.org/thomas-mcdonald/semantic-bootstrap.png?branch=master)](http://travis-ci.org/thomas-mcdonald/semantic-bootstrap) [![Code Climate](https://codeclimate.com/github/thomas-mcdonald/semantic-bootstrap.png)](https://codeclimate.com/github/thomas-mcdonald/semantic-bootstrap)
 
-`bootstrap-sass` is an Sass-powered version of [Bootstrap](http://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
+`semantic-bootstrap` is an Sass-powered version of [Bootstrap](http://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
 
 ## Installation and Usage
 
@@ -16,7 +16,7 @@ Please see the appropriate guide for your environment of choice:
 
 ### Upstream Converter
 
-Keeping bootstrap-sass in sync with upstream changes from Bootstrap used to be an error prone and time consuming manual process.
+Keeping semantic-bootstrap in sync with upstream changes from Bootstrap used to be an error prone and time consuming manual process.
 With Bootstrap 3 we have introduced a converter that automates this.
 
 Upstream changes to the Bootstrap project can now be pulled in using the `convert` rake task.
@@ -38,7 +38,7 @@ Please submit GitHub issues tagged with `conversion`.
 
 ## Credits
 
-bootstrap-sass has a number of major contributors:
+semantic-bootstrap has a number of major contributors:
 
 <!-- feel free to make these link wherever you wish -->
 * [Thomas McDonald](https://twitter.com/thomasmcdonald_)
@@ -49,14 +49,14 @@ bootstrap-sass has a number of major contributors:
 and a [significant number of other contributors][contrib].
 
 ## You're in good company
-bootstrap-sass is used to build some awesome projects all over the web, including
+semantic-bootstrap is used to build some awesome projects all over the web, including
 [Diaspora](http://diasporaproject.org/), [rails_admin](https://github.com/sferik/rails_admin),
 Michael Hartl's [Rails Tutorial](http://railstutorial.org/), [gitlabhq](http://gitlabhq.com/) and
 [kandan](http://kandanapp.com/).
 
-[railsguide]: https://github.com/thomas-mcdonald/bootstrap-sass/blob/3/docs/RAILS.md
-[compassguide]: https://github.com/thomas-mcdonald/bootstrap-sass/blob/3/docs/COMPASS.md
+[railsguide]: https://github.com/thomas-mcdonald/semantic-bootstrap/blob/3/docs/RAILS.md
+[compassguide]: https://github.com/thomas-mcdonald/semantic-bootstrap/blob/3/docs/COMPASS.md
 [sassguide]: #
-[converter]: https://github.com/thomas-mcdonald/bootstrap-sass/blob/3/tasks/converter.rb
-[version]: https://github.com/thomas-mcdonald/bootstrap-sass/blob/3/lib/bootstrap-sass/version.rb
-[contrib]: https://github.com/thomas-mcdonald/bootstrap-sass/graphs/contributors
+[converter]: https://github.com/thomas-mcdonald/semantic-bootstrap/blob/3/tasks/converter.rb
+[version]: https://github.com/thomas-mcdonald/semantic-bootstrap/blob/3/lib/semantic-bootstrap/version.rb
+[contrib]: https://github.com/thomas-mcdonald/semantic-bootstrap/graphs/contributors

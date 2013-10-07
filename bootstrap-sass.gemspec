@@ -1,14 +1,14 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap-sass/version'
+require 'semantic-bootstrap/version'
 
 Gem::Specification.new do |s|
-  s.name = "bootstrap-sass"
+  s.name = "semantic-bootstrap"
   s.version = Bootstrap::VERSION
   s.authors = ["Thomas McDonald"]
   s.email = 'tom@conceptcoding.co.uk'
   s.summary = "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
-  s.homepage = "http://github.com/thomas-mcdonald/bootstrap-sass"
+  s.homepage = "http://github.com/thomas-mcdonald/semantic-bootstrap"
   s.license = "Apache 2.0"
 
   s.add_development_dependency 'compass'

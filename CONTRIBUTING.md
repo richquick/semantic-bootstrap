@@ -1,9 +1,9 @@
-# Contributing to bootstrap-sass
+# Contributing to semantic-bootstrap
 
 ## Asset Changes
 
-Any changes to `bootstrap-sass` assets (scss, javascripts, fonts) should be checked against the `convert` rake task.
-For usage instructions, see the [README](https://github.com/thomas-mcdonald/bootstrap-sass/blob/3/README.md).
+Any changes to `semantic-bootstrap` assets (scss, javascripts, fonts) should be checked against the `convert` rake task.
+For usage instructions, see the [README](https://github.com/thomas-mcdonald/semantic-bootstrap/blob/3/README.md).
 
 If something is broken in the converter, it's preferable to update the converter along with the asset itself.
 
@@ -15,7 +15,7 @@ repository. Good bug reports are extremely helpful - thank you!
 
 Guidelines for bug reports:
 
-1. **Does it belong here?** &mdash; is this a problem with bootstrap-sass, or
+1. **Does it belong here?** &mdash; is this a problem with semantic-bootstrap, or
    it an issue with [twbs/bootstrap](https://github.com/twbs/bootstrap)?
    We only distribute a direct port and will not modify files if they're not
    changed upstream.
@@ -50,7 +50,7 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
-**[File a bug report](https://github.com/thomas-mcdonald/bootstrap-sass/issues/)**
+**[File a bug report](https://github.com/thomas-mcdonald/semantic-bootstrap/issues/)**
 
 
 ## Pull requests

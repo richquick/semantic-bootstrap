@@ -8,8 +8,8 @@ end
 desc 'Dumps output to a CSS file for testing'
 task :debug do
   require 'sass'
-  require './lib/bootstrap-sass/compass_functions'
-  require './lib/bootstrap-sass/sass_functions'
+  require './lib/semantic-bootstrap/compass_functions'
+  require './lib/semantic-bootstrap/sass_functions'
   path = './vendor/assets/stylesheets'
   %w(bootstrap).each do |file|
     engine = Sass::Engine.for_file("#{path}/#{file}.scss", syntax: :scss, load_paths: [path])
@@ -17,20 +17,20 @@ task :debug do
   end
 end
 
-desc 'Convert bootstrap to bootstrap-sass'
+desc 'Convert bootstrap to semantic-bootstrap'
 task :convert, :branch do |t, args|
   require './tasks/converter'
   branch = args[:branch]
   Converter.new(branch).process
 end
 
-desc 'Compile bootstrap-sass to tmp/ (or first arg)'
+desc 'Compile semantic-bootstrap to tmp/ (or first arg)'
 task :compile, :css_path do |t, args|
   lib_path = File.join(File.dirname(__FILE__), 'lib')
   $:.unshift(lib_path) unless $:.include?(lib_path)
   require 'sass'
-  require 'bootstrap-sass/compass_functions'
-  require 'bootstrap-sass/sass_functions'
+  require 'semantic-bootstrap/compass_functions'
+  require 'semantic-bootstrap/sass_functions'
   require 'term/ansicolor'
 
   path = 'vendor/assets/stylesheets'

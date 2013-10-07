@@ -1,14 +1,14 @@
-# bootstrap-sass with Rails
+# semantic-bootstrap with Rails
 
-`bootstrap-sass` is easy to drop into Rails with the asset pipeline.
+`semantic-bootstrap` is easy to drop into Rails with the asset pipeline.
 
 ## Installation
 
-In your Gemfile you need to add the `bootstrap-sass` gem, and ensure that the `sass-rails` gem is present - it is added to new Rails applications by default
+In your Gemfile you need to add the `semantic-bootstrap` gem, and ensure that the `sass-rails` gem is present - it is added to new Rails applications by default
 
 ```ruby
 gem 'sass-rails', '>= 3.2' # sass-rails needs to be higher than 3.2
-gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'semantic-bootstrap', '~> 2.3.2.1'
 ```
 
 `bundle install` and restart your server to make the files available through the pipeline.
@@ -46,5 +46,5 @@ You can also load individual modules, provided you also require any dependencies
 //= require bootstrap/dropdown
 ```
 
-[antirequire]: https://github.com/thomas-mcdonald/bootstrap-sass/issues/79#issuecomment-4428595
+[antirequire]: https://github.com/thomas-mcdonald/semantic-bootstrap/issues/79#issuecomment-4428595
 [jsdocs]: http://getbootstrap.com/javascript/#transitions

@@ -7,7 +7,7 @@ Bundler.require(*Rails.groups)
 require 'sass-rails'
 require 'jquery-rails'
 require 'slim-rails'
-require 'bootstrap-sass'
+require 'semantic-bootstrap'
 
 module Dummy
   class Application < Rails::Application

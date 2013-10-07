@@ -125,7 +125,7 @@ class Converter
   end
 
   def store_version
-    path = 'lib/bootstrap-sass/version.rb'
+    path = 'lib/semantic-bootstrap/version.rb'
     content = File.read(path).sub(/BOOTSTRAP_SHA\s*=\s*['"][\w]+['"]/, "BOOTSTRAP_SHA = '#@branch_sha'")
     File.open(path, 'w') { |f| f.write(content) }
   end
